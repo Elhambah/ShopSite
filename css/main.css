@@ -1,0 +1,21 @@
+@font-face {
+    font-family:BNAZANB ;
+    src: url(../fonts/BNAZANB.TTF);
+}
+*{
+    direction: rtl;
+font-family: BNAZANB;
+box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+
+a{
+
+    text-decoration: none;
+
+}
