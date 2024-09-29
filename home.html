@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/main.css">
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <title>Document</title>
-
 </head>
 
 <body>
@@ -23,16 +23,36 @@
 
             </div>
             <div class="nav-left">
-                <div class="register-longin-btn">
+                <div class="register-login-btn">
                     <i class="fas fa-user"></i>
                     <a href="#">ثبت نام /ورود</a>
                 </div>
             </div>
         </nav>
         <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slid1">
+                    <img src="./image/canada-place-vancouver-at-n-min.jpg" alt="">
+                    <span>فرصت تحصیل در یکی ار بهترین سیستم های تحصیلی دنیا</span>
+                </div>
+                <div class="item" id="slid2">
+                    <img src="./image/bigstock-Science-World-In-Vancouver-Ca-93393425-min.jpg" alt="">
+                    <span>با ویزای کاری کانادا همراه با کار کردن اقامت دایم کانادا نیز دریافت کنید</span>
+                </div>
+                <div class="item" id="slid3">
+                    <img src="./image/stanley-park-vancouver-canada-min.jpg" alt="">
+                    <span>از کانادا بازید کرده و فرصت های این کشور زیبا را بشناسید</span>
+                </div>
 
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slid1',1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slid2',2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slid3',3)" class="fas fa-circle"></i>
+            </div>
         </section>
     </header>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

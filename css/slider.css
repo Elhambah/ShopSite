@@ -1,0 +1,54 @@
+.slider {
+
+    position: relative;
+
+}
+
+
+.slider .slides {
+
+}
+
+.slider .slides .item {
+
+    position: relative;
+    display: none;
+
+}
+
+
+
+.slider .slides .item img {
+width: 100%;
+height: 550px;
+
+}
+
+.slider .slides .item span {
+    position: absolute;
+    right: 40%;
+    top:30%;
+    color: whitesmoke;
+    font-size:  1.5em;
+}
+
+.slider .slides  .active {
+    display: block;
+}
+
+.slider .buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+.slider .buttons i {
+    margin-right: 5px;
+    cursor: pointer;
+    color:white ;
+
+}
+
+.slider .buttons i:hover{
+    color:  rgba(144, 16, 16, 0.773);;
+}
