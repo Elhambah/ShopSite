@@ -1,0 +1,113 @@
+.product-sec-new {
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.product-sec-new .shoping-card {
+    text-align: center;
+    box-sizing: 0px 2px 8px 0px rgba(112, 74, 218, 0.945);
+    box-shadow: 3px 5px 5px 1px rgba(53, 64, 11, 0.805), 0 1px 3px rgba(117, 171, 29, 0.3);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.product-sec-new .shoping-card .imag-sec {
+    position: relative;
+}
+
+.product-sec-new .shoping-card img {
+    width: 50%;
+}
+
+.shoping-card .imag-sec .hot-offer {
+    background-color: #c0392b;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+
+}
+
+.shoping-card .imag-sec .stars {
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #f1c40f
+}
+
+.shoping-card .title {
+    margin: 15px 15px;
+    color: #c0392b
+}
+
+.shoping-card .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+
+
+.shoping-card .button .right .price {
+    color: #bdc3c7;
+    font-weight: bold;
+}
+
+.shoping-card .button .left {
+    display: flex;
+
+}
+
+/*.shoping-card .button .left .extend-btn {
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bdc3c7;
+    color:white;
+    width: 40px;
+    padding: 8px 12 px;
+  border-radius: 25px;
+  cursor: pointer;
+}*/
+
+.shoping-card .button .left .extend-btn {
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2ecc71;
+    color: white;
+    width: 40px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .75s;
+
+}
+
+
+
+.shoping-card .button .left .extend-btn:hover {
+    width: 100px;
+}
+
+.shoping-card .button .left .extend-btn:hover .b-text {
+    display: block;
+}
+
+.shoping-card .button .left .extend-btn .b-text {
+    display: none;
+    color: white;
+}
+
+.shoping-card .button .left .extend-btn .b-icon {
+    color: white;
+    padding-top: 3px;
+}
