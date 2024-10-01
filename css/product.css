@@ -3,7 +3,7 @@
     font-size: 1em;
 }
 
-.product-sec-new .shoping-card {
+ .shoping-card {
     text-align: center;
     box-sizing: 0px 2px 8px 0px rgba(112, 74, 218, 0.945);
     box-shadow: 3px 5px 5px 1px rgba(53, 64, 11, 0.805), 0 1px 3px rgba(117, 171, 29, 0.3);
@@ -12,7 +12,7 @@
     padding: 10px;
 }
 
-.product-sec-new .shoping-card .imag-sec {
+ .shoping-card .imag-sec {
     position: relative;
 }
 

@@ -1,0 +1,20 @@
+
+.owl-stage-outer{
+direction: ltr;
+
+}
+.dragble-list img{
+    width: 70%!important;
+    margin: auto;
+}
+.dragble-list .title{
+    padding: 0px 20px;
+    padding-bottom: 30px;
+
+}
+.dragble-list .title span{
+font-size:1.5em;
+color:#444;
+border-bottom:2px solid #c0392b;
+
+}
