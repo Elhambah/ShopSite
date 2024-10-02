@@ -1,0 +1,104 @@
+.login-continer{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    padding: 180px;
+    height: 100vh;
+ 
+}
+
+
+ .login-box {
+
+font-size: 1em;
+border-radius: 15px;
+box-shadow: 3px 5px 5px 1px rgba(208, 210, 203, 0.805), 0 1px 3px rgba(117, 171, 29, 0.3);
+background-color: rgba(225, 225, 225, 0.3);
+padding: 25px 35px;
+color:white;
+margin:20px 30px;
+
+ }
+
+
+ .login-box  form .input-group {
+    margin: 30px 30px;
+ }
+
+
+.login-box  form .input-group label {
+display: block;
+
+}
+ .login-box form .input-group input {
+    border: none;
+    border-radius: 20px;
+    background : none;
+    border: 2px solid white;
+    margin-top:20px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    outline: none;
+
+ }
+
+ 
+ .login-box form .you-donnot-have a {
+
+    color:#eb4d4b;
+ }
+
+ .login-box form .submit-btn-continer {
+    text-align: center;
+ }
+ .login-box form .submit-btn-continer input {
+    
+    border : none;
+    border-radius: 35px;
+    background-color: #eb4d4b ;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+
+ .login-box form .submit-btn-continer input:hover {
+    
+  
+    background-color:  white;
+    color: #eb4d4b ; 
+    
+ }
+
+
+ .login-box .social-auth{
+    display: flex;
+    justify-content: space-around;
+     padding-top: 20px;
+    border-top: 1px solid rgba(225, 227, 225, 0.8);
+    margin-top:30px;
+
+ }
+ .login-box .social-auth a{
+
+    color: white;
+    font-size: 1.9em;
+   
+ }
+
+ .login-box .social-auth a:hover{
+
+    color: rgb(133, 25, 25);
+    font-size: 1.9em;
+   
+ }
+
+ .login-img-container{
+
+    display:flex;
+    height: 100%;
+ }
+.login-img-container img{
+  width: 100%;
+}
