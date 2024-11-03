@@ -38,3 +38,7 @@ setInterval(() => {
     setSlide(`slid${slideIndex}`, slideIndex)
 }, 4000)
 
+function loginform(){
+console.log("hello");
+
+}
